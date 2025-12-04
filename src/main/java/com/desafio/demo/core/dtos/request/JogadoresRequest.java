@@ -8,8 +8,6 @@ public class JogadoresRequest {
 	
 	private String telefone;
 	
-	private String codinome;
-	
 	private String grupo;
 
 	
@@ -43,15 +41,6 @@ public class JogadoresRequest {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-
-	public String getCodinome() {
-		return codinome;
-	}
-
-	public void setCodinome(String codinome) {
-		this.codinome = codinome;
-	}
-
 
 
 	public String getGrupo() {
